@@ -1,0 +1,123 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by Downright.rc
+//
+#define IDR_MANIFEST                    1
+#define IDD_DOWNRIGHT_DIALOG            102
+#define IDR_MAINFRAME                   128
+#define IDD_SETTINGS                    129
+#define IDR_GESTUREMENU                 130
+#define IDR_COMMANDMENU                 131
+#define IDR_COMPATIBILITYMENU           133
+#define IDM_EXIT                        134
+#define IDB_TREEIMAGES                  136
+#define IDR_ACCELERATOR                 137
+#define IDM_ADDCOMPATIBILITY            139
+#define IDM_DELCOMPATIBILITY            140
+#define IDR_IGNOREPROGRAMMENU           143
+#define IDM_ADDIGNOREPROGRAM            144
+#define IDM_DELIGNOREPROGRAM            145
+#define IDD_DOWNRIGHT_INTRO             146
+#define IDB_DOWNRIGHT_INTRO             147
+#define IDR_KEYMENU                     148
+#define IDM_ADDGESTURE                  201
+#define IDM_DELGESTURE                  202
+#define IDM_GESTUREUP                   203
+#define IDM_GESTUREDOWN                 204
+#define IDM_ADDGROUP                    205
+#define IDM_ADDCOMMAND                  206
+#define IDM_DELCOMMAND                  207
+#define IDM_COMMANDUP                   208
+#define IDM_COMMANDDOWN                 209
+#define IDR_SYSTRAYMENU                 300
+#define IDM_SYSTRAY_SHOW                301
+#define IDM_SYSTRAY_ENABLE              302
+#define IDM_SYSTRAY_EXIT                303
+#define IDI_SYSTRAY0                    400
+#define IDI_SYSTRAY1                    401
+#define IDI_FOLDEROPEN                  402
+#define IDI_FOLDERCLOSE                 403
+#define IDC_TREE                        1000
+#define IDC_0_GESTURETAB                1001
+#define IDC_0_GESTUREBORDER             1002
+#define IDC_0_COMMANDBORDER             1003
+#define IDC_0_COMMANDTAB                1004
+#define IDC_MAINTAB                     1005
+#define IDC_0_0_COMMANDS                1006
+#define IDC_0_2_TEXT                    1007
+#define IDC_0_GENERALDESCRIPTION        1008
+#define IDC_0_COMMANDS                  1009
+#define IDC_3_COMPATIBILITY_LIST        1010
+#define IDC_3_COMPATIBILITY_EDIT        1011
+#define IDC_EDIT1                       1012
+#define IDC_0_GESTURENAME               1012
+#define IDC_0_GESTUREDESCRIPTION        1013
+#define IDC_SCROLLBAR1                  1014
+#define IDC_GESTUREPREVIEWSCROLL        1014
+#define IDC_2_SETTINGSTAB               1014
+#define IDC_0_GESTURE_ENABLE            1015
+#define IDC_2_IGNORE_PROGRAM_EDIT       1016
+#define IDC_2_SYSTEMACTIVE              1017
+#define IDC_2_MOUSEBUTTON               1018
+#define IDC_2_C_MOUSEBUTTON             1019
+#define IDC_2_SHOWBALLOON               1020
+#define IDC_2_SHOWSPLASH                1021
+#define IDC_2_STARTUP                   1022
+#define IDC_2_DISABLEKEY                1023
+#define IDC_0_4_NUMBER                  1024
+#define IDC_0_4_WPARAM                  1025
+#define IDC_0_4_LPARAM                  1026
+#define IDC_0_4_C_NUMBER                1027
+#define IDC_0_4_C_WPARAM                1028
+#define IDC_0_4_C_LPARAM                1029
+#define IDC_2_C_DISABLEKEY              1030
+#define IDC_2_LANGUAGE                  1031
+#define IDC_2_C_LANGUAGE                1032
+#define IDC_2_IGNORE_PROGRAM_LIST       1033
+#define IDC_2_USERNAME                  1034
+#define IDC_2_HARDWAREID                1035
+#define IDC_2_REGISTRATIONKEY           1036
+#define IDC_0_3_KEY_TREE                1037
+#define IDC_2_SERIAL_NUMBER_STATUS      1038
+#define IDC_2_C_USERNAME                1039
+#define IDC_2_C_HARDWAREID              1040
+#define IDC_2_C_USERNAME3               1041
+#define IDC_2_C_REGISTRATIONKEY         1041
+#define IDC_0_3_ALL_KEY_TREE            1042
+#define IDC_0_1_NAME                    1051
+#define IDC_0_1_PATH                    1052
+#define IDC_0_1_PARAM                   1053
+#define IDC_0_1_C_NAME                  1054
+#define IDC_0_1_C_PATH                  1055
+#define IDC_0_1_C_PARAM                 1056
+#define IDC_0_1_BROWSE                  1057
+#define IDC_2_C_FILE_NAME               1058
+#define IDC_2_FILE_NAME                 1059
+#define IDC_0_1_BROWSE2                 1060
+#define IDC_2_BROWSE                    1060
+#define IDC_3_COMPATIBILITY_TYPE        1061
+#define IDR_ADD                         32773
+#define IDR_DEL                         32774
+#define IDR_UP                          32775
+#define IDR_DOWN                        32776
+#define IDR_ADD_GROUP                   32777
+#define ID_Menu                         32788
+#define ID_32789                        32789
+#define ID_32790                        32790
+#define IDM_INSERTKEYBEFORE             32793
+#define IDM_INSERTKEYAFTER              32794
+#define IDM_INSERTKEYINSIDE             32795
+#define IDM_KEYMOVEUP                   32797
+#define IDM_KEYMOVEDOWN                 32798
+#define IDM_KEYDELETE                   32799
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        150
+#define _APS_NEXT_COMMAND_VALUE         32800
+#define _APS_NEXT_CONTROL_VALUE         1039
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

@@ -1,0 +1,165 @@
+Settings-Title=Downright blackrain
+Settings-MainTab-Logo=О программе
+Settings-MainTab-Gestures=Жесты
+Settings-MainTab-Settings=Настройки
+Settings-MainTab-Help=Справка
+
+Settings-Tree-Gestures=Жесты
+	
+Settings-GestureTab-Description=Описание
+Settings-GestureTab-Commands=Комманды
+Settings-GestureTab-Symbols=Символы
+Settings-GestureTab-Compatibility=Совместимость
+
+
+Settings-CommandTab-Simply=Простые
+Settings-CommandTab-Start=Запуск
+Settings-CommandTab-Text=Текст
+Settings-CommandTab-Keyboard=Клавиатура
+Settings-CommandTab-Message=Сообщение
+Settings-CommandTab-NoSelect=Комманда не выбрана
+
+Settings-SettingsTab-General=Общие
+Settings-SettingsTab-IngnoreProgram=Игнорируемые программы
+Settings-SettingsTab-Registration=Регистрация
+
+
+
+
+
+Settings-Message-DeleteGroupQuestion=Удалить группу жестов?
+Settings-Message-GestureLimitOut=Вы исчерпали лимит активных жестов демонстрационной версии программы.\nИнформацию о процедуре преобретения полной версии можно получить на официальном сайте: http://downright.shergin.com
+
+Settings-Registration-UserName=Имя:
+Settings-Registration-HardwareID=Код оборудования:
+Settings-Registration-SerialNumber=Серийный номер:
+
+
+
+Settings-Message-SerialStatus-Valid=Серийный номер принят.
+Settings-Message-SerialStatus-Invalid=Серийный номер не принят.
+
+
+Settings-Other-NewGesture=Мой новый жест
+Settings-Other-NewGroup=Моя новая группа
+
+
+
+Settings-CompatibilityType-All=Совместим со всеми
+Settings-CompatibilityType-Except=Совместим со всеми, кроме указанных
+Settings-CompatibilityType-Only=Совместим только с указанными
+
+Settings-Gesture-Description-Disable=Отключить жест
+
+Settings-Gesture-Command-Standart-Title=Выполнить: 
+Settings-Gesture-Command-Standart-Close=Закрыть
+Settings-Gesture-Command-Standart-Maximize=Развернуть
+Settings-Gesture-Command-Standart-Minimize=Свернуть
+Settings-Gesture-Command-Standart-MinimizeAll=Свернуть все (показать рабочий стол)
+Settings-Gesture-Command-Standart-Copy=Копировать
+Settings-Gesture-Command-Standart-Paste=Вставить
+Settings-Gesture-Command-Standart-Cut=Вырезать
+Settings-Gesture-Command-Standart-Open=Открыть
+Settings-Gesture-Command-Standart-Save=Сохранить
+Settings-Gesture-Command-Standart-Print=Печать
+Settings-Gesture-Command-Standart-Next=Вперед
+Settings-Gesture-Command-Standart-Back=Назад
+Settings-Gesture-Command-Standart-NextWindow=Следующее окно
+Settings-Gesture-Command-Standart-PrevWindow=Предыдущее окно
+Settings-Gesture-Command-Standart-Undo=Отменить
+Settings-Gesture-Command-Standart-Redo=Вернуть
+Settings-Gesture-Command-Standart-SelectAll=Выделить все
+Settings-Gesture-Command-Standart-CloseDocument=Закрыть документ
+Settings-Gesture-Command-Standart-Shutdown=Выключить компьютер
+
+Settings-Gesture-Command-Text-Title=Вставить текст: «%s»
+	
+Settings-Gesture-Command-Start-Title=Запустить «%s»
+Settings-Gesture-Command-Start-Title-Path=, в папке «%s»
+Settings-Gesture-Command-Start-Title-Parameters=, с параметрами «%s»
+	
+Settings-Gesture-Command-Keyboard-Title=Сэмулировать нажатие: «%s»
+Settings-Gesture-Command-Keyboard-Empty=<пусто>
+
+Settings-Gesture-Command-Message-Title=Послать сообщение: номер: %s, lParam: %s, wParam: %s
+
+
+
+
+
+
+
+
+
+Settings-Gesture-Command-Execute-Name=Имя:
+Settings-Gesture-Command-Execute-Browse=Обзор...
+Settings-Gesture-Command-Execute-Path=Путь:
+Settings-Gesture-Command-Execute-Param=Параметры:
+
+Settings-Gesture-Command-Message-Number=Номер:
+Settings-Gesture-Command-Message-LParam=lParam:
+Settings-Gesture-Command-Message-WParam=wParam:
+
+
+Settings-Menu-Keyboard-Insert-Before=Вставить перед
+Settings-Menu-Keyboard-Insert-Inside=Вставить внутрь
+Settings-Menu-Keyboard-Insert-After=Вставить после
+Settings-Menu-Keyboard-Delete=Удалить
+
+Settings-Menu-Gesture-Insert=Вставить жест\tIns
+Settings-Menu-Gesture-InsertGroup=Вставить группу\tCtrl-Ins
+Settings-Menu-Gesture-Delete=Удалить\tDel
+Settings-Menu-Command-Insert=Вставить комманду\tIns
+Settings-Menu-Command-Delete=Удалить комманду\tDel
+Settings-Menu-Command-Up=Вверх\tCtrl-Up
+Settings-Menu-Command-Down=Вниз\tCtrl-Down
+Settings-Menu-Compatibility-Add=Добавить\tIns
+Settings-Menu-Compatibility-Delete=Удалить\tDel
+Settings-Menu-SysTray-Open=Открыть
+Settings-Menu-SysTray-Enable=Активность
+Settings-Menu-SysTray-Exit=Выгрузить
+Settings-Menu-IgnoreProgram-Add=Добавить\tIns
+Settings-Menu-IgnoreProgram-Delete=Удалить\tDel
+	
+Settings-Stiings-DisableKey-None=None
+Settings-Stiings-DisableKey-Ctrl=Ctrl
+Settings-Stiings-DisableKey-Shift=Shift
+
+
+Settings-Stiings-MouseButton-Left=Левая
+Settings-Stiings-MouseButton-Right=Правая
+Settings-Stiings-MouseButton-Middle=Средняя
+	
+Settings-Stiings-SystemActive=Активность системы
+Settings-Stiings-ShowBalloons=Показывать сообщения при распозновании жестов
+Settings-Stiings-ShowSplash=Показывать заставку
+Settings-Stiings-StartUp=Запускать программу вместе с Windows
+Settings-Stiings-DisableKey=Кнопка отключения жестов:
+Settings-Stiings-MouseButton=Кнопка рисования жестов:
+
+Settings-Stiings-FileName=Файл с жестами:
+Settings-Stiings-Browse=Обзор...
+
+SystemTray-Error-Title=Downright blackrain. Ошибка.
+SystemTray-Error-Hook=Ошибка инициализации хука.
+
+SystemTray-Identify-Title=Downright blackrain. Распознано. Выполняю.
+
+
+Settings-ToolTip-Tree=Для добавления и удаления элементов дерева используйте контекстное меню,вызываемое щелчком правой кнопки мыши.
+Settings-ToolTip-Commands=Список команд. Для добавления, удаления и изменения порядка используйте контекстное меню, вызываемое щелчком правой кнопки мыши.
+Settings-ToolTip-StandartCommands=Список простых команд, выберете одну.
+Settings-ToolTip-Name=Имя программы или документа. Может содержать полный или относительный путь.
+Settings-ToolTip-Browse=Обзор файлов для выбора.
+Settings-ToolTip-Path=Папка, содержащая объект или связанные с ним файлы.
+Settings-ToolTip-Param=Дополнительные параметры программы, например имя документа.
+Settings-ToolTip-Text=Произвольный текст, который будет автоматически печататься при активизации жеста.
+Settings-ToolTip-Key=Сочетание клавиш. Для добавления или удаления используйте контекстное меню, вызываемое щелчком правой кнопки мыши.
+Settings-ToolTip-Number=Номер системного сообщения Windows. Может быть записано в виде: 0x0301 (шестнадцатеричное), 0301h (шестнадцатеричное) или 769 (десятичное).
+Settings-ToolTip-wParam=Первый параметр сообщения.
+Settings-ToolTip-lParam=Второй параметр сообщения.
+Settings-ToolTip-CompatibilityType=Тип совместимости жеста.
+Settings-ToolTip-CompatibilityEdit=Фрагмент заголовка окна приложения.
+Settings-ToolTip-CompatibilityList=Список фрагментов заголовков приложений. Для добавления и удаления используйте контекстное меню, вызываемое щелчком правой кнопки мыши.
+Settings-ToolTip-GestureName=Имя жеста, короткое и ясное.
+Settings-ToolTip-GestureDescription=Описание жеста, полное и развернутое, если необходимо.

@@ -1,0 +1,348 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Downright.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Downright.ico"
+IDI_FOLDEROPEN          ICON                    "res\\FolderOpen.ico"
+IDI_FOLDERCLOSE         ICON                    "res\\FolderClose.ico"
+IDI_SYSTRAY0            ICON                    "res\\SysTray0.ico"
+IDI_SYSTRAY1            ICON                    "res\\SysTray1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DOWNRIGHT_DIALOG DIALOGEX 2000, 100, 64, 16
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Downright"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_SETTINGS DIALOGEX 0, 0, 436, 264
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Downright blackrain"
+FONT 8, "Tahoma", 400, 0, 0xCC
+BEGIN
+    CONTROL         "",IDC_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_SHOWSELALWAYS | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,76,30,32,28
+    CONTROL         "",IDC_0_3_KEY_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,269,207,51,28,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_0_3_ALL_KEY_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,270,175,51,28,WS_EX_TRANSPARENT
+    CONTROL         "Gesture Enable",IDC_0_GESTURE_ENABLE,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,131,150,65,10
+    EDITTEXT        IDC_0_GESTUREDESCRIPTION,132,106,38,31,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | NOT WS_VISIBLE | WS_VSCROLL
+    RTEXT           "Путь:",IDC_0_1_C_PATH,58,236,55,12,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_3_COMPATIBILITY_TYPE,0,113,70,42,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_3_COMPATIBILITY_EDIT,0,128,69,13,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LISTBOX         IDC_3_COMPATIBILITY_LIST,0,143,69,28,LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "GeneralDescription",IDC_0_GENERALDESCRIPTION,134,140,70,13,NOT WS_VISIBLE
+    EDITTEXT        IDC_0_GESTURENAME,132,90,38,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LISTBOX         IDC_0_0_COMMANDS,1,231,32,28,LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Параметры:",IDC_0_1_C_PARAM,58,249,55,15,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    RTEXT           "Имя:",IDC_0_1_C_NAME,58,223,55,8,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_0_1_PARAM,116,252,75,13,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_0_1_PATH,116,236,75,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_0_1_NAME,116,222,34,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "Обзор...",IDC_0_1_BROWSE,152,220,39,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_0_2_TEXT,216,237,34,27,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    RTEXT           "lParam:",IDC_0_4_C_LPARAM,361,252,40,12,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    RTEXT           "wParam:",IDC_0_4_C_WPARAM,352,236,49,12,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    RTEXT           "Номер:",IDC_0_4_C_NUMBER,346,223,55,12,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_0_4_LPARAM,404,250,32,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_0_4_WPARAM,404,236,32,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_0_4_NUMBER,404,223,32,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "Cancel",IDCANCEL,211,24,50,14,NOT WS_VISIBLE
+    DEFPUSHBUTTON   "OK",IDOK,211,0,50,14,NOT WS_VISIBLE
+    LISTBOX         IDC_0_COMMANDS,76,0,32,28,LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Static",IDC_0_GESTUREBORDER,144,25,36,34,NOT WS_VISIBLE
+    GROUPBOX        "Static",IDC_0_COMMANDBORDER,144,0,37,26,NOT WS_VISIBLE
+    CONTROL         "",IDC_0_COMMANDTAB,"SysTabControl32",NOT WS_VISIBLE,37,28,34,26
+    CONTROL         "System active",IDC_2_SYSTEMACTIVE,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,367,2,62,10
+    CONTROL         "Show balloon",IDC_2_SHOWBALLOON,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,367,12,62,10
+    CONTROL         "Show splash",IDC_2_SHOWSPLASH,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,367,25,62,10
+    CONTROL         "Start with Windows",IDC_2_STARTUP,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,366,38,62,10
+    COMBOBOX        IDC_2_MOUSEBUTTON,386,57,48,30,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Mouse button:",IDC_2_C_MOUSEBUTTON,336,60,48,8,SS_CENTERIMAGE | NOT WS_VISIBLE
+    COMBOBOX        IDC_2_DISABLEKEY,386,74,48,30,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Disable key:",IDC_2_C_DISABLEKEY,336,77,40,8,SS_CENTERIMAGE | NOT WS_VISIBLE
+    COMBOBOX        IDC_2_LANGUAGE,386,94,48,30,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Language:",IDC_2_C_LANGUAGE,336,97,35,8,SS_CENTERIMAGE | NOT WS_VISIBLE
+    EDITTEXT        IDC_2_IGNORE_PROGRAM_EDIT,361,151,69,13,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LISTBOX         IDC_2_IGNORE_PROGRAM_LIST,361,166,69,28,LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_2_USERNAME,267,91,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_2_HARDWAREID,268,110,40,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_2_REGISTRATIONKEY,268,129,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    RTEXT           "Static",IDC_2_SERIAL_NUMBER_STATUS,267,146,41,8,SS_CENTERIMAGE | NOT WS_VISIBLE
+    RTEXT           "Имя:",IDC_2_C_FILE_NAME,326,118,32,8,SS_CENTERIMAGE | NOT WS_VISIBLE
+    EDITTEXT        IDC_2_FILE_NAME,361,117,34,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    PUSHBUTTON      "Обзор...",IDC_2_BROWSE,397,115,39,14,NOT WS_VISIBLE
+    RTEXT           "User name:",IDC_2_C_USERNAME,221,93,41,8,SS_CENTERIMAGE | NOT WS_VISIBLE
+    RTEXT           "Hardware ID:",IDC_2_C_HARDWAREID,221,114,41,8,SS_CENTERIMAGE | NOT WS_VISIBLE
+    RTEXT           "Key:",IDC_2_C_REGISTRATIONKEY,221,132,41,8,SS_CENTERIMAGE | NOT WS_VISIBLE
+    CONTROL         "",IDC_0_GESTURETAB,"SysTabControl32",NOT WS_VISIBLE,37,0,34,26
+    CONTROL         "",IDC_2_SETTINGSTAB,"SysTabControl32",NOT WS_VISIBLE,36,61,34,26
+    CONTROL         "",IDC_MAINTAB,"SysTabControl32",0x0,0,0,34,26
+END
+
+IDD_DOWNRIGHT_INTRO DIALOGEX 0, 0, 306, 182
+STYLE DS_SYSMODAL | DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_GESTUREMENU MENU 
+BEGIN
+    POPUP "invisible"
+    BEGIN
+        MENUITEM "Создать жест\tIns",           IDM_ADDGESTURE
+        MENUITEM "Создать группу\tCtrl-Ins",    IDM_ADDGROUP
+        MENUITEM "Удалить\tDel",                IDM_DELGESTURE
+    END
+END
+
+IDR_COMMANDMENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Вставить комманду\tIns",      IDM_ADDCOMMAND
+        MENUITEM "Удалить комманду\tDel",       IDM_DELCOMMAND
+        MENUITEM SEPARATOR
+        MENUITEM "Выше\tCtrl+Up",               IDM_COMMANDUP
+        MENUITEM "Ниже\tCtrl+Down",             IDM_COMMANDDOWN
+    END
+END
+
+IDR_SYSTRAYMENU MENU 
+BEGIN
+    POPUP "invisible"
+    BEGIN
+        MENUITEM "Открыть",                     IDM_SYSTRAY_SHOW
+        MENUITEM "Активность",                  IDM_SYSTRAY_ENABLE, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Выгрузить",                  IDM_SYSTRAY_EXIT
+    END
+END
+
+IDR_COMPATIBILITYMENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Добавить программу\tIns",    IDM_ADDCOMPATIBILITY
+        MENUITEM "&Удалить программу\tDel",     IDM_DELCOMPATIBILITY
+    END
+END
+
+IDR_IGNOREPROGRAMMENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Добавить программу\tIns",    IDM_ADDIGNOREPROGRAM
+        MENUITEM "&Удалить программу\tDel",     IDM_DELIGNOREPROGRAM
+    END
+END
+
+IDR_KEYMENU MENU 
+BEGIN
+    POPUP "Кнопки"
+    BEGIN
+        MENUITEM "Вставить перед",              IDM_INSERTKEYBEFORE
+        MENUITEM "Вставить внутрь",             IDM_INSERTKEYINSIDE
+        MENUITEM "Вставить после",              IDM_INSERTKEYAFTER
+        MENUITEM SEPARATOR
+        MENUITEM "Удалить",                     IDM_KEYDELETE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TREEIMAGES          BITMAP                  "res\\TreeImages.bmp"
+IDB_DOWNRIGHT_INTRO     BITMAP                  "res\\downright_logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR ACCELERATORS 
+BEGIN
+    VK_INSERT,      IDR_ADD,                VIRTKEY, NOINVERT
+    VK_DELETE,      IDR_DEL,                VIRTKEY, NOINVERT
+    VK_UP,          IDR_UP,                 VIRTKEY, CONTROL, NOINVERT
+    VK_DOWN,        IDR_DOWN,               VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      IDR_ADD_GROUP,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DOWNRIGHT_INTRO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,8
+ PRODUCTVERSION 1,0,0,8
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "valentin shergin research laboratory"
+            VALUE "FileDescription", "Downright blackrain"
+            VALUE "FileVersion", "1.0.0.8"
+            VALUE "InternalName", "Downright blackrain"
+            VALUE "LegalCopyright", "valentin shergin research laboratory"
+            VALUE "OriginalFilename", "Downright.exe"
+            VALUE "ProductName", "Downright blackrain"
+            VALUE "ProductVersion", "1.0.0.8"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\Downright.manifest"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Downright.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

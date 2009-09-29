@@ -1,0 +1,160 @@
+Settings-Title=Downright blackrain
+Settings-MainTab-Logo=Logo
+Settings-MainTab-Gestures=Gestures
+Settings-MainTab-Settings=Settings
+Settings-MainTab-Help=Help
+
+Settings-Tree-Gestures=Gestures
+	
+Settings-GestureTab-Description=Description
+Settings-GestureTab-Commands=Commands
+Settings-GestureTab-Symbols=Symbols
+Settings-GestureTab-Compatibility=Compatibility
+
+
+Settings-CommandTab-Simply=Simply
+Settings-CommandTab-Start=Start
+Settings-CommandTab-Text=Text
+Settings-CommandTab-Keyboard=Keyboard
+Settings-CommandTab-Message=Message
+Settings-CommandTab-NoSelect=Command don't selected
+
+Settings-SettingsTab-General=General
+Settings-SettingsTab-IngnoreProgram=Ignore Program
+Settings-SettingsTab-Registration=Registration
+
+
+
+
+
+Settings-Message-DeleteGroupQuestion=Delete this gesture group?
+Settings-Message-GestureLimitOut=Вы исчерпали лимит активных жестов демонстрационной версии программы.\nИнформацию о процедуре преобретения полной версии можно получить на официальном сайте: http://downright.shergin.net
+
+Settings-Registration-UserName=Name:
+Settings-Registration-HardwareID=Hardware ID:
+Settings-Registration-SerialNumber=Serial number:
+
+
+
+Settings-Message-SerialStatus-Valid=Serial key is valid.
+Settings-Message-SerialStatus-Invalid=Serial key is invalid.
+
+
+Settings-Other-NewGesture=My new gesture
+Settings-Other-NewGroup=My new group
+
+
+
+Settings-CompatibilityType-All=Full compatibility
+Settings-CompatibilityType-Except=Except
+Settings-CompatibilityType-Only=Only
+
+Settings-Gesture-Description-Disable=Disable gesture
+
+Settings-Gesture-Command-Standart-Title=Execute: 
+Settings-Gesture-Command-Standart-Close=Close
+Settings-Gesture-Command-Standart-Maximize=Maximize
+Settings-Gesture-Command-Standart-Minimize=Minimize
+Settings-Gesture-Command-Standart-MinimizeAll=Minimize all
+Settings-Gesture-Command-Standart-Copy=Copy
+Settings-Gesture-Command-Standart-Paste=Paste
+Settings-Gesture-Command-Standart-Cut=Cut
+Settings-Gesture-Command-Standart-Open=Open
+Settings-Gesture-Command-Standart-Save=Save
+Settings-Gesture-Command-Standart-Print=Print
+Settings-Gesture-Command-Standart-Next=Next
+Settings-Gesture-Command-Standart-Back=Back
+Settings-Gesture-Command-Standart-NextWindow=Next window
+Settings-Gesture-Command-Standart-PrevWindow=Previous window
+Settings-Gesture-Command-Standart-Undo=Undo
+Settings-Gesture-Command-Standart-Redo=Redo
+Settings-Gesture-Command-Standart-SelectAll=Select all
+Settings-Gesture-Command-Standart-CloseDocument=Close document
+Settings-Gesture-Command-Standart-Shutdown=Shutdown
+
+Settings-Gesture-Command-Text-Title=Insert text: «%s»
+	
+Settings-Gesture-Command-Start-Title=Start «%s»
+Settings-Gesture-Command-Start-Title-Path=, by path «%s»
+Settings-Gesture-Command-Start-Title-Parameters=, with parameters «%s»
+	
+Settings-Gesture-Command-Keyboard-Title=Keyboard: «%s»
+	
+Settings-Gesture-Command-Message-Title=Message: number: %s, lParam: %s, wParam: %s
+
+
+
+
+
+
+
+
+
+Settings-Gesture-Command-Execute-Name=Name:
+Settings-Gesture-Command-Execute-Browse=Browse
+Settings-Gesture-Command-Execute-Path=Path:
+Settings-Gesture-Command-Execute-Param=Parameters:
+
+Settings-Gesture-Command-Message-Number=Number:
+Settings-Gesture-Command-Message-LParam=lParam:
+Settings-Gesture-Command-Message-WParam=wParam:
+
+
+
+Settings-Menu-Gesture-Insert=Insert gesture\tIns
+Settings-Menu-Gesture-InsertGroup=Insert group\tCtrl-Ins
+Settings-Menu-Gesture-Delete=Delete\tDel
+Settings-Menu-Command-Insert=Insert command\tIns
+Settings-Menu-Command-Delete=Delete command\tDel
+Settings-Menu-Command-Up=Up\tCtrl-Up
+Settings-Menu-Command-Down=Down\tCtrl-Down
+Settings-Menu-Compatibility-Add=Add\tIns
+Settings-Menu-Compatibility-Delete=Delete\tDel
+Settings-Menu-SysTray-Open=Open
+Settings-Menu-SysTray-Enable=Enable
+Settings-Menu-SysTray-Exit=Shutdown
+Settings-Menu-IgnoreProgram-Add=Add\tIns
+Settings-Menu-IgnoreProgram-Delete=Delete\tDel
+	
+Settings-Stiings-DisableKey-None=None
+Settings-Stiings-DisableKey-Ctrl=Ctrl
+Settings-Stiings-DisableKey-Shift=Shift
+
+
+Settings-Stiings-MouseButton-Left=Left
+Settings-Stiings-MouseButton-Right=Right
+Settings-Stiings-MouseButton-Middle=Middle
+	
+Settings-Stiings-SystemActive=System active
+Settings-Stiings-ShowBalloons=Show balloons
+Settings-Stiings-ShowSplash=Show splash
+Settings-Stiings-StartUp=Start program with windows
+Settings-Stiings-DisableKey=Disable system key:
+Settings-Stiings-MouseButton=Drawing mouse button:
+
+Settings-Stiings-FileName=Gesture's database file name:
+Settings-Stiings-Browse=Browse...
+
+SystemTray-Error-Title=Downright blackrain. Error.
+SystemTray-Error-Hook=Error in the hook intialization.
+
+SystemTray-Identify-Title=Downright blackrain. Identify. Executing.
+
+
+Settings-ToolTip-Tree=Для добавления и удаления элементов дерева используйте контекстное меню, вызываемое щелчком правой кнопки мыши.
+Settings-ToolTip-Commands=Список команд. Для добавления, удаления и изменения порядка используйте контекстное меню, вызываемое щелчком правой кнопки мыши.
+Settings-ToolTip-StandartCommands=Список простых команд, выберете одну.
+Settings-ToolTip-Name=Имя программы или документа. Может содержать полный или относительный путь.
+Settings-ToolTip-Browse=Обзор файлов для выбора.
+Settings-ToolTip-Path=Папка, содержащая объект или связанные с ним файлы.
+Settings-ToolTip-Param=Дополнительные параметры программы, например имя документа.
+Settings-ToolTip-Text=Произвольный текст, который будет автоматически печататься при активизации жеста.
+Settings-ToolTip-Key=Сочетание клавиш, нажатие которых будет сэмулировано при активизации жеста.
+Settings-ToolTip-Number=Номер системного сообщения Windows. Может быть записано в виде: 0x0301 (шестнадцатеричное), 0301h (шестнадцатеричное) или 769 (десятичное).
+Settings-ToolTip-wParam=Первый параметр сообщения.
+Settings-ToolTip-lParam=Второй параметр сообщения.
+Settings-ToolTip-CompatibilityType=Тип совместимости жеста.
+Settings-ToolTip-CompatibilityEdit=Фрагмент заголовка окна приложения.
+Settings-ToolTip-CompatibilityList=Список фрагментов заголовков приложений. Для добавления и удаления используйте контекстное меню, вызываемое щелчком правой кнопки мыши.
+Settings-ToolTip-GestureName=Имя жеста, короткое и ясное.
+Settings-ToolTip-GestureDescription=Описание жеста, полное и развернутое, если необходимо.
